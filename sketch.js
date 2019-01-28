@@ -28,3 +28,4 @@ function setup() {
 	stroke(150,100,150);
 	let hour3= map(hours %12, 0, 12, 0, 360); //the modulus will ensure it is remains in 12 hour format. 
 	arc(200, 200, 100, 100, 0, hour3);
+  }
